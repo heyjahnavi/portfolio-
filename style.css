@@ -1,0 +1,234 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+/* Body Header */
+
+#body-header {
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+}
+
+/* Horizontal Lists */
+
+.horizontal-list {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+    margin-bottom: 10vh;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+
+.horizontal-list li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu li a {
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.nav-menu li a:hover {
+    color: lightgrey;
+    border-bottom: 1px solid black;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Name and Social Icons*/
+
+#name-social-container {
+    margin-top: 20vh;
+}
+
+#my-name {
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+
+.social-icons li a i {
+    /*color: red;*/
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 50%;
+}
+
+
+.social-icons li a i:hover {
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+/*About Section*/
+
+#about {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#my-image {
+    height: 20rem;
+    width: 20rem;
+    margin: auto;
+    margin-top: -19vh;
+}
+
+#my-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    
+
+}
+p{
+    text-align: center;
+    margin: 4vh 20vh 0vh 20vh;
+}
+.container{
+    background-color: white;
+    border-radius: 20px;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.fill{
+    background-color: blue;
+    width: 90%;
+    border-radius:  20px; 
+    
+}
+.text{
+    color: aliceblue;
+    font-size: 20PX;
+}
+.skill{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+.skilll{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+#skills{
+    background-color: lightgray;
+    height: 300px;
+   text-align: center;
+   margin-top: 20vh;
+}
+
+h1{
+    color: blue;
+}
+.timeline{
+    position: relative;
+    width: 75%;
+    margin: 10%;
+}
+.timeline-box{
+    position: relative;
+    width: 40%;
+    left: 5%;
+    margin: 5px;
+    min-height: 150px;
+    text-align: right;
+    
+}
+.timeline-box:nth-child(2n){   /* nth chlid */
+    left:53%;
+    text-align: left;
+}
+.timeline-box:nth-child(2n+1):after{    /* pseudo element*/
+    content: '';
+    position: absolute;
+    top: 30%;
+    right: -13%;
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+    background-color: orange;
+    z-index: 1;
+}
+.timeline-box:nth-child(2n):after{    /* pseudo element*/
+    content: '';
+    position: absolute;
+    top: 30%;
+    left: -10%;
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+    background-color: orange;
+    z-index: 1;
+}
+.timeline-divider{
+    position: absolute;
+    height: 75%;
+    width:0;
+    border: 3px dashed rgb(155, 151, 151);
+    top: 10%;
+    left:50%;
+}
+.timeline-traveller{
+    top: 30%;
+    position:sticky;
+    transform: rotate(90deg);
+}
+.heading{
+    text-align: center;
+    margin-top: 20vh;
+    color: blue;
+}
+.containcontact{
+    display: flex;
+    
+}
+.info{
+    
+    text-align: left;
+}
+.formc{
+    margin: 8%;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    width: 50vw;
+    
+}
+input[type="text"]{
+    height: 4vh;
+    width: 20vw;
+    margin: 2vh;
+}
+input[type="email"]{
+    height: 4vh;
+    width: 20vw;
+}
+#contact{
+    background: linear-gradient(to right, #210277, #5f9cec);
+     
+}
